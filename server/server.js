@@ -7,7 +7,11 @@ const port = process.env.PORT || 3000;
 // app.use(morgan('dev'));
 app.use(express.static(path.join(__dirname, '../public')));
 
+// app.get('http://localhost:3003/api/reviews/:productId', (req, res) => {
+
+// })
 
 app.listen(port, () => {
   console.log(`server running at: http://localhost:${port}`);
 });
+
