@@ -2,21 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <!-- <link rel="stylesheet" href="/style.css"> -->
+
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Deepfryd</title>
+
+    <link rel="stylesheet" type="text/css"
+          href="http://localhost:3002/style.css">
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+          crossorigin="anonymous">
+
   </head>
   <body>
-    <div id="Reviews"></div>
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <div class="container">
+      <div class="item item0">DEEPFRYD.COM</div>
+      <div class="item red">
+        <span>Cool Stuff We Sell </span>
+        <span class="space">|</span>
+        <span>Things We Do for You </span>
+        <span class="space">|</span>
+        <span>myDeepfryd </span>
+        <span class="space">|</span>
+        <sapn>Welcome Guest!</sapn>
+    </div>
+
+
+      <div id="Images" class="item item1"></div>
+      <div id="Descriptions" class="item item2"></div>
+      <div id="app" class="item item3"></div>
+      <div id="Reviews" class="item item4"></div>
+      <div id="FeaturesSpecs" class="item item5"></div>
+    </div>
+
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 
+    <script src="http://localhost:3001/bundle.js"></script>
+    <script src="http://localhost:3002/bundle.js"></script>
     <script src="http://localhost:3003/bundle.js"></script>
-    <!-- <script>
-        ReactDOM.render(
-        React.createElement(App),
-        document.getElementById('Reviews')
-      );
-    </script> -->
+    <script src="http://localhost:3004/bundle.js"></script>
+    <script src="http://localhost:3005/bundle.js"></script>
+
   </body>
 </html>
